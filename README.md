@@ -19,7 +19,7 @@
 
 3. Реализация
 
-База данных: MySQL
-Связь с БД: Hibernate
-GUI: Swing
-Сборка проекта: Maven
+- База данных: MySQL
+- Связь с БД: Hibernate
+- GUI: Swing
+- Сборка проекта: Maven

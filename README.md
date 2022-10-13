@@ -1,5 +1,26 @@
 # EquipmentCatalog
 
+1. Introduction
+
+The application provides access to the table "unit" of "equipmentCatalog" database. 
+Table contains list of equipment.
+
+2. Application interface
+
+The main window of the application dispays the contents of the table, on the left side 5 control buttons are placed:
+- 'Add' - calls dialog window for adding record to the table
+- 'Update' - calls dialog window for editing of selected record
+- 'Delete' - delete selected record
+- 'Refresh' - calls reading contents of the table (in a separate thread) and displaying the results in the main application window
+- 'Get count of records' - in a separate thread calls reading of the quantity records in the table and displays it under the button
+
+3. Implementation
+
+- Database: MySQL
+- Database connection: Hibernate
+- GUI: Swing
+- Project build: Maven
+
 1. Введение
 
 Приложение обеспечивает доступ к таблице 'unit' базе данных 'equipmentCatalog'.
